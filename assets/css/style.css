@@ -1,94 +1,147 @@
-*{
+* {
     box-sizing: border-box;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 16px;
 }
-#logo{
+
+#logo {
     margin-left: 6%;
 }
-h1{
+
+h1 {
     color: white;
     text-align: center;
 }
-.jumbotron{
+
+.jumbotron {
     background-image: url(../images/slide-2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    height:600px;
+    height: 600px;
 }
-#menu ul li{
+
+#menu ul li {
     text-decoration: none;
     display: inline-block;
 }
-#menu ul li a{
+
+#menu ul li a {
     color: white;
 }
-nav{
+
+nav {
     padding: 15% 0% 0% 6%;
     width: 60%;
 }
-.fas{
-    color:orange;
+
+.fas {
+    color: orange;
     padding: 2px;
 }
-.fab{
-    color:orange;
+
+.fab {
+    color: orange;
     padding: 2px;
 }
-.telefone a{
-    font-size:18px;
+
+.telefone a {
+    font-size: 18px;
     color: white;
 }
-.email a{
-    font-size:18px;
+
+.email a {
+    font-size: 18px;
     color: white;
 }
-#fundo{
+
+#fundo {
     background-image: url(../images/slide-3.jpg);
-    background-size:cover;
+    background-size: cover;
     background-repeat: no-repeat;
     padding: 10px;
     height: 300px;
 }
-#conteudo{
 
+#conteudo {
     padding: 5px;
     margin: 3%;
     background-color: white;
 }
-p{
+
+p {
     text-align: justify;
 }
-#arquivos{
 
+#arquivos {
     padding: 5px;
     margin: 3%;
 }
-#arquivados{
-    text-align: center;
-}
-h3{
+
+h3 {
     text-align: center;
     text-decoration: underline;
     color: orange;
 }
-#botao{
+
+h5 {
+    color: orange;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#botao {
     background-color: orange!important;
     color: white;
     float: right;
 }
-#botao:hover{
+
+#botao:hover {
     opacity: 0.6;
 }
-#footer{
-    color:white;
-    font-size: 16px;
 
+#footer {
+    color: white;
+    font-size: 16px;
 }
+
+
 /*POST UM */
-#banner-post{
-    background-image: url(../images/postum.jpg);
+
+#banner-post {
+    background-image: url(../images/slideboletim.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 300px;
+}
+
+#texto-arquivados a {
+    color: black;
+    text-decoration: underline!important;
+    text-decoration: none;
+}
+
+#texto-arquivados a:hover {
+    color: orange;
+    text-decoration: none!important;
+    text-align: justify;
+}
+
+#linkEbook a {
+    background-color: orange;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px 10px 0px 10px;
+}
+
+.fa-arrow-up {
+    color: white;
+}
+
+#linkEbook:hover {
+    opacity: 0.8;
+}
+
+#textoFonte p {
+    font-size: 10px;
 }
